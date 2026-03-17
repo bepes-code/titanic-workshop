@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taller Titanic</title>
+    <meta
+      name="description"
+      content="Landing del taller Titanic amb accés directe al Google Colab."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="hero">
+      <section class="card">
+        <p class="eyebrow">Workshop</p>
+        <h1>Taller Titanic a Google Colab</h1>
+        <p class="copy">
+          Entra al quadern del taller amb un clic. Google Colab s'obrirà en
+          una pestanya nova.
+        </p>
+
+        <div class="actions">
+          <a
+            class="button primary"
+            href="https://colab.research.google.com/drive/15ecuh8WleBc0iw5NnXGlD028cnrb33XJ?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Obrir Google Colab
+          </a>
+          <button class="button secondary" id="copy-link" type="button">
+            Copiar enllaç
+          </button>
+        </div>
+
+        <p class="hint" id="copy-feedback">
+          Comparteix aquesta web perquè la gent entri directament al taller.
+        </p>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
